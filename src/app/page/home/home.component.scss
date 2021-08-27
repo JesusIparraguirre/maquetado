@@ -1,8 +1,7 @@
 .body{
-    margin-top: 69px!important;
-    height: 1800px!important;
-    background-color: green;
-    overflow-y: scroll;
+    height: 100%;
+    // margin-top: 69px!important;
+    overflow-x: hidden!important;
 }
 .search{
     height:654px;
@@ -29,10 +28,10 @@
     border-radius: 7px;
     opacity: 0.32;
     @media (min-width: 700px) {
-        margin-top: 80px!important;
+        margin-top: 130px!important;
     } 
     @media (max-width: 699px) {
-        margin-top: 10px!important;
+        margin-top: 70px!important;
     } 
 }
 .search-box-2{
@@ -100,7 +99,7 @@
         margin-top: 80px!important;
     } 
     @media (max-width: 699px) {
-        margin-top: 10px!important;
+        margin-top: -10px!important;
     } 
 }
 .search-preguntas{
@@ -138,7 +137,6 @@
     height: 29px;
 }
 .products{
-    height:654px;
     background-color: white;
 }
 .propiedades{
@@ -170,4 +168,96 @@
     font-family: 'Overpass-bold'!important;
     opacity: 1;
     border-radius: 10px;
+}
+.catalog{
+    margin-top:30px!important;
+}
+.product-div-top{
+    padding: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    opacity: 1;
+}
+.product-div-bot{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 10px 10px;
+    opacity: 1;
+}
+.product-image{
+    width: 100%;
+}
+.product-soles{
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal normal 22px/32px Overpass;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+.product-dolar{
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal normal 22px/30px Overpass;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+.product-direction{
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal bold 22px/30px Overpass-Bold;
+    letter-spacing: 0px;
+    color: #C6C6C6;
+    opacity: 1;
+}
+.product-calle{
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal 600 22px/30px Overpass;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+.product-description{
+    margin-bottom: 0px;
+    text-align: left;
+    font: normal normal normal 16px/21px Overpass;
+    letter-spacing: 0px;
+    color: #232323;
+    opacity: 1;
+}
+.product-item{
+    text-align: left;
+    font: normal normal normal 12px/16px Overpass;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+    opacity: 1;
+}
+.product-icon{
+    color: #9E9E9E;
+}
+.product-btn{
+    color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
+    border-radius:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: normal normal 600 16px/21px Overpass;
+    letter-spacing: 0px;
+    background-color: #000000;
+    opacity: 1;
+}
+.product-btn-h{
+    text-align: left;
+    vertical-align: middle;
+    border-radius:10px;
+    border-color: #9E9E9E;
+    padding-left: 20px;
+    padding-right: 20px;
+    font: normal normal 600 16px/21px Overpass;
+    letter-spacing: 0px;
+    background-color: #FFFFFF;
+    opacity: 1;
 }

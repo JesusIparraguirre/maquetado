@@ -38,12 +38,12 @@
             </div>
             <div class="col-0 col-lg-2 col-xl-2"></div>
         </div>
-        <div class="row mt-3">
+        <div class="row mt-1">
             <div class="col-4 col-lg-9 col-xl-9"></div>
             <div class="col-8 col-lg-3 col-xl-3">
                 <div class="search-div-preguntas">
                     <div class="row p-preguntas">
-                        <div class="col-10 pr-0">
+                        <div class="col-9 pr-0">
                             <p class="search-preguntas">¿Podemos ayudarte?</p>
                         </div>
                         <div class="col-2 pl-0">
@@ -62,6 +62,92 @@
                 <button type="button" class="btn propiedades-btn mt-2 p-3">Ver más</button>
             </div>
         </div>
-    </div>
+    </div>   
     
+    <div class="col-12 catalog">
+        <div class="row">
+            
+            <div *ngFor="let catalog of i "class="col-12 col-lg-4 col-xl-4">
+                <div class="row p-5">
+                    <div class="col-12 product-div-top">
+                        <img class="product-image" src="assets/images/foto2.png" alt="">
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col-6 col-lg-3 col-xl-3">
+                                    <p class="product-soles">S/ 4,140</p>
+                                </div>
+                                <div class="col-6 col-lg-9 col-xl-9">
+                                    <p class="product-dolares">(USD $1500)</p>
+                                </div>
+                            </div>
+                            <p class="product-direction mt-1">Miraflores, Lima</p>
+                            <p class="product-calle mt-1">Calle Chariarse</p>
+                            <p class="product-description mt-2">Descripción: Alquilo lindo departamento simplemente el texto de relleno.</p>
+                            <div class="row mt-3">
+                                <div class="col-6 col-lg-3 col-xl-3">
+                                    <div class="row">
+                                        <div class="col-3 pr-0">
+                                            <ion-icon class="product-icon" name="bed"></ion-icon>
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="product-item">3 Dormitorios</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-3">
+                                    <div class="row">
+                                        <div class="col-3 pr-0">
+                                            <ion-icon class="product-icon" name="transgender"></ion-icon>
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="product-item">2 Baños</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-3">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <ion-icon class="product-icon" name="car-sport"></ion-icon>
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="product-item">1 estacionar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-3 col-xl-3">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <ion-icon class="product-icon" name="resize"></ion-icon>
+                                        </div>
+                                        <div class="col-9 p-0">
+                                            <p class="product-item">102 m2</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 product-div-bot">
+                        <div class="row mb-3 mt-2">
+                            <div class="col-4 col-lg-6 col-xl-6"></div>
+                            <div class="col-3 col-lg-2 col-xl-2 pr-0">
+                                <button type="button" class="btn product-btn-h mt-2 pt-2 pb-2">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </button>
+                            </div>
+                            <div class="col-5 col-lg-4 col-xl-4 pl-0">
+                                <button type="button" class="btn product-btn mt-2 pt-2 pb-2">Contactar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <app-footer></app-footer>
 </div>
+
+
+
