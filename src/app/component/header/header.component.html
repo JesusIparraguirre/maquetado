@@ -1,9 +1,9 @@
 <div class="col-12 bar">
     <nav class="navbar navbar-expand-lg bar pl-3 pr-3">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler"  (click)="menuOpen()" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <ion-icon name="menu-outline" style="color:white;"></ion-icon>
         </button>
-        <img src="assets/images/Grupo 226.svg" class="logo" alt="">
+        <img src="assets/images/Grupo 226.svg" routerLink="/home" class="logo" alt="">
         <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         
         <div class="collapse navbar-collapse nav-bar" id="navbarNavAltMarkup">
@@ -24,4 +24,24 @@
         </div>
         
       </nav>
+      <button type="button" class="btn x" (click)="menuClose()" *ngIf="menu">
+        <ion-icon name="close-circle-outline"></ion-icon>
+      </button>
+      <div class="menu p-5" *ngIf="menu">
+        <img src="assets/images/Grupo 6.svg" class="logo-menu" alt="">
+        <p class="menu-option">Empresa</p>
+        <p class="menu-option">Blog</p>
+        <p class="menu-option">Favoritos</p>
+        <p class="menu-option">Contactenos</p>
+        <div class="divider"></div>
+        <div class="row mt-4">
+          <div class="col-4">
+            <img src="assets/images/Grupo 225.svg" class="i-social" alt="">
+          </div>
+          <div class="col-4">
+            <img src="assets/images/Grupo 227.svg" class="i-social" alt="">
+          </div>
+        </div>
+        <p class="menu-option-t">Términos y Condiciones de Uso</p>
+      </div>
 </div>
